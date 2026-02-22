@@ -6,7 +6,7 @@ authors = [
     {name = "julio4ai",email = "juliocolomer@gmail.com"}
 ]
 readme = "README.md"
-requires-python = "3.13.11"
+requires-python = ">=3.11,<3.14"
 dependencies = [
     "jupyterlab (>=4.5.1,<5.0.0)",
     "langchain (>=1.2.0,<2.0.0)",
@@ -21,7 +21,9 @@ dependencies = [
     "langchain-community (>=0.4.1,<0.5.0)",
     "langgraph-cli (>=0.4.11,<0.5.0)",
     "langgraph-api (>=0.6.17,<0.7.0)",
-    "pypdf (>=6.6.0,<7.0.0)"
+    "pypdf (>=6.6.0,<7.0.0)",
+    "ipykernel (>=7.2.0,<8.0.0)",
+    "langchain-google-genai (>=4.2.1,<5.0.0)"
 ]
 
 [tool.poetry]
